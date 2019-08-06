@@ -2,6 +2,8 @@
 
 ##### This is an online application that helps users manage music listed on Music Database (https://www.last.fm). Using this app, a user should be able to search and manage music.
 
+##### MySQL Docker - sudo docker run -d --name track-service-mysql --env="MYSQL_ROOT_PASSWORD=test" --publish 6603:3306 mysql:latest
+
 Task - 8: Created 3 tracks using @Value, @PropertySource, Environment and @ConfigurationProperties. Check com.stackroute.trackservice.seeddata.TrackServiceApplicationListener, TrackServiceSeedDataCommandLineRunner
 
 Task - 10: @Primary added to TrackServiceImpl and @Qualifier added in TrackServiceSeedDataCommandLineRunner
